@@ -1,0 +1,131 @@
+body{
+    overflow-x: hidden;
+    border: 2px solid rgb(79, 211, 211);
+    margin: 0px;
+}
+.header{
+    width: 100%;
+    display: flex;
+    margin: 10px 0px;
+}
+.header-link{
+    width: 40%;
+}
+.header-link ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.header-link li{
+    list-style-type: none;
+    font-weight: bold;
+}
+.header-link a{
+    color: black;
+    text-decoration: none;
+    padding: 0px 10px;
+}
+.header-logo{
+    width: 20%;
+    justify-content: center;
+}
+.header-logo img{
+    width: 70px;
+    padding-left: 80px;
+}
+.header-search{
+    margin-left: 200px;
+    justify-content: end;
+    margin-top: 20px;
+}
+.header-search button{
+    background-color: black;
+    color: white;
+}
+.banner{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.banner img{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.list{
+    grid-column: 1/2;
+    background-color: rgb(167, 167, 167);
+}
+.right{
+    grid-column: 2/5;
+}
+.title div{
+    text-align: center;
+    color: white;
+    background-color: rgb(230, 150, 3);
+}
+.title ul {
+    list-style-type: circle;
+}
+.right h1{
+    text-align: center;
+    color: aqua;
+}
+.best-seller{
+    margin-left: 20px;
+    margin-right: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.best-seller img{
+    float: left;
+    width: 20%;
+    margin-right: 10px;
+}
+.acce{
+    margin: 0px 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 30px;
+}
+/* .I1{
+    grid-column: 1/2;
+}
+.I2{
+    grid-column: 2/3;
+}
+.I3{
+    grid-column: 3/4;
+} */
+.saleof{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 0px 10px;
+}
+.saleof img{
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.saleof div{
+    text-align: center;
+    margin-top: 0px;
+}
+.money{
+    color: red;
+}
+.footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin: 0px;
+    padding: 1px;
+}
