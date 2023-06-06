@@ -1,0 +1,110 @@
+body{
+    overflow-x: hidden;
+    width: 100%;
+    border: 2px solid blue;
+}
+.row{
+    margin-top: 10px;
+}
+.image{
+    width: 50px;
+}
+.menu li a{
+    color: rgb(12, 219, 160);
+}
+.menu {
+    color: green;
+    margin-left: 70px;
+    margin-right: 0px;
+}
+.favorite{
+
+    background-color: rgb(180, 247, 247);
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 790px;
+}
+/* .row h3{
+    width: 250px;
+} */
+.buffet{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.f{
+    padding-top: 30px;
+}
+.f img{
+    width: 30%;
+    border-radius: 100%;
+    height: 100px;
+}
+h1{
+    color: orangered;
+    text-align: center;
+}
+.h3{
+    color: orangered;
+    border-bottom: 3px solid aqua;
+}
+.fish{
+    margin: 0px 30px;
+}
+.i1{
+    width: 50%;
+    padding-right: 0px;
+}
+.i2{
+    width: 50%;
+    padding-left: 0px;
+}
+.party{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.party img{
+    width: 90%;
+    padding-left: 100px;
+}
+.footer{
+    text-align: center;
+    background-color: rgb(41, 149, 113);
+    color: white;
+    padding: 10px 0px;
+}
+@media screen and (max-width: 768px) {
+    /* .favorite{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .h3{
+        grid-column: 1/4;
+    } */
+    .f{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .f img{
+        width: 100%;
+        grid-column: 1/2;
+    }
+    .f h3{
+        margin-left: 0px;
+        grid-column: 2/4;
+    }
+    .i1{
+        width: 100%;
+        padding: 0px;
+    }
+    .i2{
+        width: 100%;
+        padding: 0px;
+    }
+    .party img{
+        width: 100%;
+        padding-left: 00px;
+    }
+    .bar{
+        display: block;
+    }
+}

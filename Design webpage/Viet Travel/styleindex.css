@@ -1,0 +1,95 @@
+body{
+    overflow-x: hidden;
+}
+.banner img{
+    float: left;
+    width: 100%;
+}
+.clear-float{
+    clear: both;
+}
+.favorite{
+    padding-left: 0px;
+}
+.favorite-place{
+    color: orange;
+    border-bottom: 3px solid aqua;
+}
+.place{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding-left: 0px;
+}
+.place img{
+    width: 80px;
+    height: 80px;
+    padding: 0px;
+    /* float: left; */
+}
+.place p{
+    padding-left: 0px;
+}
+.title{
+    color: rgb(0, 208, 255);
+    text-align: center;
+    font-size: xx-large;
+}
+.image{
+    width: 100%;
+    /* position: relative; */
+    background: ;
+}
+.famous-hotel{
+    position: relative;
+}
+.famous-hotel div{
+    position: absolute;
+  bottom: 0;
+  background: rgba(171, 168, 168, 0.3);
+  color: #f1f1f1; 
+  width: 100%; 
+  /* box-sizing:border-box; */
+  padding-top: 10px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+.table thead tr th{
+    text-align: center;
+    color: rgb(5, 177, 5);
+
+}
+.g{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.table tbody{
+    text-align: center;
+    color: orange;
+}
+/* .table thead tr th{
+    text-align: center;
+    width: 100px;
+} */
+.footer{
+    background-color: rgb(34, 141, 112);
+    text-align: center;
+    padding: 5px 0px;
+    margin-bottom: 5px;
+}
+@media screen and (max-width: 792px) {
+    .banner{
+        margin-top: 5px;
+    }
+    .favorite{
+        margin-left: 10px;
+    }
+    .place{
+        
+    }
+    .place img{
+        float: left;
+    }
+    .title{
+        margin-bottom: 20px;
+    }
+}
